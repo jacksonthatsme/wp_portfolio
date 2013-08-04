@@ -1,6 +1,7 @@
 <?php
 /*
-Template Name: Web Project
+Single Post Template: Web Project
+Description: This part is optional, but helpful for describing the Post Template
 */
 ?>
 
