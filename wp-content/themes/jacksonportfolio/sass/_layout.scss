@@ -1,0 +1,35 @@
+.l-container{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	margin-top: 100px;
+	margin-bottom: 10px;
+	.l-container{
+		text-align: center;
+	}
+	p{
+		font-family: $open;
+		font-size: 10px;
+		font-weight: 200;
+		color: $grey-color;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+header{
+	margin-top: 55px;
+	.l-container{
+		*{
+			display: inline-block;
+		}
+	}
+}
+.content-container{
+	margin-top: 55px;
+	background-color: #ffffff;
+	@include box-sizing(border-box);
+	border: 8px solid $main-color;
+	padding: 50px 40px 80px;
+}

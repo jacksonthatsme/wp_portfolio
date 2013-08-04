@@ -1,0 +1,112 @@
+.menu-main_menu-container{
+	float: right;
+}
+#menu-main_menu{
+	margin-top: 9px;
+	li{
+		display: inline-block;
+		font-size: 14px;
+		margin: 0px 8px;
+		a{
+			color: $main-color;
+			
+			&:hover{
+				@include text-hover;
+			}
+		}
+	}
+}
+.project-link{
+	display: block;
+	float: left;
+	margin: 50px 24px 0px;
+	text-align: center;
+	h3{
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+	&:hover h3 a{
+		@include text-hover;
+	}
+	img{
+		border-radius: 3px;
+		overflow: hidden;
+	}
+}
+.logo{
+		margin-top: 13px;
+}
+.description-container{
+	h3{
+		color: $grey-color !important;
+	}
+	h3{
+		font-style: italic;
+	}
+	h4{
+		margin-top: 13px;
+		a{
+			@include btn-style;
+		}
+	}
+	.overview{
+		max-width: 260px;
+		padding-right: 40px;
+		float: left;
+	}
+	.description{
+		max-width: 500px;
+		float: left;
+	}
+}
+.content-panel *{
+	display: inline-block;
+	font-size: 13px;
+	color: $main-color;
+	
+	&:hover{
+		@include text-hover;
+	}
+}
+
+.content-panel{
+	text-align: center;
+	margin-top: 60px;
+	.prev{
+		float: left;
+	}
+	.next{
+		float: right;
+	}
+	.index{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+.project-images{
+	margin-top: 70px;
+	text-align: center;
+}
+.color-select{
+	.color-select-button{
+		display: inline-block;
+		a{
+			height: 10px;
+			display: block;
+			width: 10px;
+		}
+		.blue{
+			background-color: #00ADEF;
+		}
+		.orange{
+			background-color: #EE6B5A;
+		}
+		.green{
+			background-color: #51BB7F;
+		}
+		.pink{
+			background-color: #ED1976;
+		}
+		
+	}
+}
